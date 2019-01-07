@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-item {
+  background: #fff0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #666874;
+  border-radius: 10px;
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 #66687452;
+  transition: 0.3s;
+}
+
+.card-item:hover {
+  box-shadow: 0 8px 16px 0 #66687452;
+}
