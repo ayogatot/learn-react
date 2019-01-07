@@ -46,8 +46,11 @@ p {
 }
 
 .container {
-  /* margin: 0 50px 0 50px; */
   background: #deeff5;
+}
+
+.container-middle {
+  background: #e7d4b1;
 }
 
 .footer-bottom {
