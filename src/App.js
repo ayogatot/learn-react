@@ -17,6 +17,7 @@ class App extends Component {
         <h2>Pokémon Fire Red</h2>
           <Pokemon />
         </div>
+      <footer className="footer-bottom">&copy;PokemonCompany</footer>
       </div>;
   }
 }
