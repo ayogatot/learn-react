@@ -11,12 +11,12 @@ class App extends Component {
         <Navbar />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Pokemon Genereation 1</p>
-          <a className="App-link" href="https://pokemondb.net/pokedex/national" target="_blank" rel="noopener noreferrer">
-            Pokedex
-          </a>
+          <p>Pokémon Genereation 1</p>
         </header>
-        <Pokemon />
+        <div className="container">
+        <h2>Pokémon Fire Red</h2>
+          <Pokemon />
+        </div>
       </div>;
   }
 }
