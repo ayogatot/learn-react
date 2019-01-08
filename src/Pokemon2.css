@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #666874;
+  border-radius: 10px;
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 #66687452;
+  transition: 0.3s;
+}
+
+.charizard {
+  background: #e9edff url("/assets/1.png") no-repeat center;
+}
+
+.charizard:hover {
+  background: #888ca0 url("/assets/10.png") no-repeat center;
+}
+
+.alakazam {
+  background: #e9edff url("/assets/12.png") no-repeat center;
+}
+
+.alakazam:hover {
+  background: #888ca0 url("/assets/13.png") no-repeat center;
+}
+
+.gengar {
+  background: #e9edff url("/assets/14.png") no-repeat center;
+}
+
+.gengar:hover {
+  background: #888ca0 url("/assets/15.png") no-repeat center;
+}
+
+.pinsir {
+  background: #e9edff url("/assets/20.png") no-repeat center;
+}
+
+.pinsir:hover {
+  background: #888ca0 url("/assets/18.png") no-repeat center;
+}
